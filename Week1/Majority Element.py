@@ -28,5 +28,5 @@ In both approaches we can see a tradeoff between space and time but in this ques
 #Approach 2 solution:
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-       
+        nums.sort()
         return nums[len(nums)//2]
