@@ -12,7 +12,7 @@ Hear ⌊ n/2 ⌋ means floor(n/2).
 
 	Complexity Analysis: O(n)  but we have to use extra space for creating dictionary(Hashmap).
 
-**********Approach 1 (Sorting without any extra space):**********
+**********Approach 2 (Sorting without any extra space):**********
 
 	On the basis of definititon of majority elements we can say more than half of elements of arrya will be the majority elements.
 	So, if we sort the array then simply element at index=n/2(integer division) will be majority element. 
